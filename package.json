@@ -1,0 +1,64 @@
+{
+  "name": "vue-leaflet-minimap",
+  "version": "1.0.0",
+  "description": "A Vue2Leaflet wrapper for the Leaflet-MiniMap control plugin.",
+  "main": "dist/vue-leaflet-minimap.umd.min.js",
+  "module": "dist/vue-leaflet-minimap.common.js",
+  "keywords": [
+    "vue",
+    "vue2leaflet",
+    "leaflet",
+    "minimap"
+  ],
+  "author": "Patrick Cate",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickcate/vue-leaflet-minimap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickcate/vue-leaflet-minimap/issues"
+  },
+  "homepage": "https://github.com/patrickcate/vue-leaflet-minimap",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --mode production --target lib --name vue-leaflet-minimap ./src/vue-leaflet-minimap.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "leaflet-minimap": "^3.6.1",
+    "vue2-leaflet": "^2.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1",
+    "vue-template-compiler": "^2.6.11",
+    "vue": "^2.6.11",
+    "leaflet": "^1.6.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.6.0"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  },
+  "files": [
+    "src/vue-leaflet-minimap.vue",
+    "dist/*.js"
+  ]
+}
