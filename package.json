@@ -1,10 +1,25 @@
 {
   "name": "vue-leaflet-minimap",
   "version": "1.0.0",
+  "description": "A Vue2Leaflet wrapper for the Leaflet-MiniMap control plugin.",
   "main": "dist/vue-leaflet-minimap.umd.min.js",
   "module": "dist/vue-leaflet-minimap.common.js",
+  "keywords": [
+    "vue",
+    "vue2leaflet",
+    "leaflet",
+    "minimap"
+  ],
+  "author": "Patrick Cate",
   "license": "MIT",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickcate/vue-leaflet-minimap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickcate/vue-leaflet-minimap/issues"
+  },
+  "homepage": "https://github.com/patrickcate/vue-leaflet-minimap",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --mode production --target lib --name vue-leaflet-minimap ./src/vue-leaflet-minimap.vue",
@@ -41,5 +56,9 @@
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "files": [
+    "src/vue-leaflet-minimap.vue",
+    "dist/*.js"
+  ]
 }
