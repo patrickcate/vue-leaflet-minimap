@@ -1,15 +1,19 @@
 {
   "name": "vue-leaflet-minimap",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "main": "dist/vue-leaflet-minimap.umd.min.js",
+  "module": "dist/vue-leaflet-minimap.common.js",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --mode production --target lib --name vue-leaflet-minimap ./src/vue-leaflet-minimap.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.4",
-    "vue": "^2.6.11"
+    "leaflet-minimap": "^3.6.1",
+    "vue2-leaflet": "^2.5.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
@@ -22,7 +26,12 @@
     "eslint-plugin-vue": "^6.2.2",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vue": "^2.6.11",
+    "leaflet": "^1.6.0"
+  },
+  "peerDependencies": {
+    "leaflet": "^1.6.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
