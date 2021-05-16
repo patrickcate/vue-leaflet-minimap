@@ -58,7 +58,7 @@ export default {
       this.mapObject.toggle()
     },
   },
-  render: function(h) {
+  render: function (h) {
     if (this.ready && this.$slots.default) {
       return h('div', { style: { display: 'none' } }, this.$slots.default)
     }

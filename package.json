@@ -23,39 +23,51 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --mode production --target lib --name vue-leaflet-minimap ./src/vue-leaflet-minimap.vue",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "standard-version",
+    "prepare": "husky install",
+    "gitcommit": "cz"
   },
   "dependencies": {
     "leaflet-minimap": "^3.6.1",
     "vue2-leaflet": "^2.5.2"
   },
   "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-eslint": "^4.4.6",
     "@vue/cli-service": "^4.4.6",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
+    "commitizen": "^4.2.4",
+    "commitlint-config-cz": "^0.13.2",
     "core-js": "^3.6.4",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "^6.3.0",
     "eslint": "^7.9.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-vue": "^7.9.0",
+    "husky": "^6.0.0",
     "leaflet": "^1.6.0",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0",
+    "standard-version": "^9.3.0",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
   "peerDependencies": {
     "leaflet": "^1.6.0"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,jsx,vue}": [
-      "vue-cli-service lint",
-      "git add"
+      "vue-cli-service lint"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
   },
   "files": [
     "src/vue-leaflet-minimap.vue",
