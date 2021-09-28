@@ -1,6 +1,6 @@
 {
   "name": "vue-leaflet-minimap",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A Vue2Leaflet wrapper for the Leaflet-MiniMap control plugin.",
   "main": "dist/vue-leaflet-minimap.umd.min.js",
   "module": "dist/vue-leaflet-minimap.common.js",
