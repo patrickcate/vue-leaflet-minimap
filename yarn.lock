@@ -1413,10 +1413,10 @@
     lodash.kebabcase "^4.1.1"
     svg-tags "^1.0.0"
 
-"@vue/babel-preset-app@^4.5.17":
-  version "4.5.17"
-  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-4.5.17.tgz#09c64eedfe868bfa3121fc12a59138518f830bde"
-  integrity sha512-iFv9J3F5VKUPcbx+TqW5qhGmAVyXQxPRpKpPOuTLFIVTzg+iwJnrqVbL4kJU5ECGDxPESW2oCVgxv9bTlDPu7w==
+"@vue/babel-preset-app@^4.5.18":
+  version "4.5.18"
+  resolved "https://registry.yarnpkg.com/@vue/babel-preset-app/-/babel-preset-app-4.5.18.tgz#3bf21e29b464317aac1daba3be54bd169d2d34aa"
+  integrity sha512-P7ASKBNuz3IZxvO5VPsPGjRey4KRNMJ9Rav0nJ/v+m0ny6uUuwE03Xoli5G3mvdijUbtVZT7+/uULMCEg4bGew==
   dependencies:
     "@babel/core" "^7.11.0"
     "@babel/helper-compilation-targets" "^7.9.6"
@@ -1504,13 +1504,13 @@
   integrity sha512-PZW6WRbmWx/I+PaP7PdjZGscvtUiIq/pRU38p3GLKMl53InBer12549CEAhPicAF5c38gBzGu/ifoPSvlPSZyg==
 
 "@vue/cli-plugin-babel@^4.4.6":
-  version "4.5.17"
-  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.17.tgz#8c468e32ef6546f843201770a294bf599689e004"
-  integrity sha512-6kZuc3PdoUvGAnndUq6+GqjIXn3bqdTR8lOcAb1BH2b4N7IKGlmzcipALGS23HLVMAvDgNuUS7vf0unin9j2cg==
+  version "4.5.18"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-babel/-/cli-plugin-babel-4.5.18.tgz#831e5052412b5ae24f9598f0e83dc0c5abb24a17"
+  integrity sha512-Juiu3EgV228pKcfWu6vrABrrXYoMtanf4PlG6P2drPHf1LgVmaUp1g/K7IxdCc63IY9E+eCWjZ2ZEnQvxMSWOQ==
   dependencies:
     "@babel/core" "^7.11.0"
-    "@vue/babel-preset-app" "^4.5.17"
-    "@vue/cli-shared-utils" "^4.5.17"
+    "@vue/babel-preset-app" "^4.5.18"
+    "@vue/cli-shared-utils" "^4.5.18"
     babel-loader "^8.1.0"
     cache-loader "^4.1.0"
     thread-loader "^2.1.3"
@@ -1603,7 +1603,7 @@
   optionalDependencies:
     vue-loader-v16 "npm:vue-loader@^16.1.0"
 
-"@vue/cli-shared-utils@^4.5.17", "@vue/cli-shared-utils@^4.5.18":
+"@vue/cli-shared-utils@^4.5.18":
   version "4.5.18"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-4.5.18.tgz#372e835d2b30c325d2bb47f7d477a6942d882b19"
   integrity sha512-rYX8watG/+SFmkedXMZ3hJP+26/bz80f9zG9dMUfBMqTAqIDGICDtuP4H4QXZL3PCKI/HWFCMhRWf2wO4eGEPg==
