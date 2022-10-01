@@ -3585,9 +3585,9 @@ cz-conventional-changelog@3.3.0:
     "@commitlint/load" ">6.1.1"
 
 cz-customizable@^6.3.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/cz-customizable/-/cz-customizable-6.9.0.tgz#839726602b57465b4bcb77350d7caa9e502eafaf"
-  integrity sha512-rAuUe4aQdit/dvKzMip9JuzAYY/EVDxlNtqJfMtDJROKdZBNhQsRfoQPdvO/bHhi3DeRjA7KsKRoQ5LRfxK/qw==
+  version "6.9.2"
+  resolved "https://registry.yarnpkg.com/cz-customizable/-/cz-customizable-6.9.2.tgz#94ac9d30f88ecc97992306a17610abdff4d03d14"
+  integrity sha512-33Y0eHAp40sb7K346Shm07X+ZIckPKV8pBHUH5Lh2tI4fi0mjHkrYDrwQyJMS8095Ri+H+xkxOmblzQ64wT/Fg==
   dependencies:
     editor "1.0.0"
     find-config "^1.0.0"
